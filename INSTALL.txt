@@ -1,0 +1,33 @@
+
+⚡ FlexBot Installation Steps - Step by Step
+
+🔧 Pre-Requirements:
+- Python 3.7+ installed
+- Telegram Bot Token (BotFather से प्राप्त करें)
+
+📥 Installation Process:
+
+STEP 1: Dependencies Install
+pip install aiogram asyncio
+
+STEP 2: Bot Configuration
+enhanced_bot.py file को edit करें:
+- API_TOKEN = "आपका_BOT_TOKEN_यहाँ_डालें"
+- ADMIN_ID = आपका_TELEGRAM_ID
+- CHANNEL_ID = "@आपका_channel_username"
+
+STEP 3: Files Setup
+- key.txt में premium key content डालें
+- apk_file_id.txt में APK का Telegram file ID डालें
+
+STEP 4: Bot Start करें
+python3 enhanced_bot.py
+
+🎯 Quick Commands:
+python3 quick_start.py      - Instant start
+python3 permanent_host.py   - 24/7 hosting
+
+✅ Testing:
+Bot को Telegram पर /start command भेजें
+
+🎉 Setup Complete!
